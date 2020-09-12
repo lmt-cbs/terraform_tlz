@@ -1,1 +1,1 @@
-# Terraform Landind Zone tests
+# Terraform Landing Zone tests 
