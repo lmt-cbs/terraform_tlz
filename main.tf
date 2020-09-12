@@ -6,7 +6,7 @@ provider "aws" {
   region  = "eu-west-1"
 }
 
-# Create a VPC
-resource "aws_vpc" "vpc_pruebas" {
-  cidr_block = "10.0.0.0/16"
+module "landing-zone_example_example_landing_zone_organization" {
+  source  = "MitocGroup/landing-zone/aws//examples/example_landing_zone_organization"
+  version = "0.1.10"
 }
