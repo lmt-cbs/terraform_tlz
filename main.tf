@@ -8,8 +8,9 @@ provider "aws" {
 
 # Cargamos y ejecuamos el modulo tlz de mitogroup
 
-module "example_landing_zone_organization" {
-  source    = "../../modules/landing_zone"
+module "landing-zone_example_example_landing_zone_organization" {
+  source  = "MitocGroup/landing-zone/aws//examples/example_landing_zone_organization"
+  version = "0.1.10"
   root_path = path.module
 
   landing_zone_providers = {
